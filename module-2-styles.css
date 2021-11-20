@@ -2,24 +2,24 @@
 	margin: 0;
 	padding: 0;
 
+}
 
+body {width: 100%;
+text-align:center;}
 }
 h1 {
-	text-align: center;
-
-
-}
+	text-align:center;
+	padding: 10px;
+		}
 .row {
 	width:100%;
 }
 /***large devices***/
- @media(min-width: 1280px) {
+ @media(min-width: 992px) {
  	.chicken-lg{
  		
- 		justify-content: space-between;
- 		max-width: 400px;
+ 		 		max-width: 400px;
  		margin:  10px;
- 		padding-top:0;
  		border: 1px solid black;
  		background-color: gray; 
  		float:left;	
@@ -29,10 +29,10 @@ h1 {
  		
  		}
  	}
- 	@media(min-width: 1280px) {
+ 	@media(min-width: 992px) {
  	.beef-lg{
  		
- 		justify-content: space-between;
+ 		
  		max-width: 400px;
  		margin: 10px;
  		border: 1px solid black;
@@ -44,10 +44,10 @@ h1 {
  		}
  	}
 
- 	@media(min-width: 1280px) {
+ 	@media(min-width: 992px) {
  		.sushi-lg{
  			
- 			justify-content: space-between;
+ 			
  			max-width: 400px;
  			margin: 10px;
  			border: 1px solid black;
@@ -65,16 +65,15 @@ h1 {
  		text-align: left;
  		
  		
- 		
  	
  	}
 
 /***medium devices***/
-@media(min-width: 992px) and (max-width: 1279px) {
+@media(min-width: 768px) and (max-width: 991px) {
  	.chicken-md{
  		
  		justify-content: space-between;
- 		max-width: 430px;
+ 		max-width: 300px;
  		margin:  10px;
  		padding-top:0;
  		border: 1px solid black;
@@ -86,11 +85,11 @@ h1 {
  		
  		}
  	}
- 	@media(min-width: 992px) and (max-width:1279px) {
+ 	@media(min-width: 768px) and (max-width:991px) {
  	.beef-md{
  		
  		justify-content: space-between;
- 		max-width: 430px;
+ 		max-width: 300px;
  		margin: 10px;
  		border: 1px solid black;
  		background-color: gray;
@@ -101,11 +100,11 @@ h1 {
  		}
  	}
 
- 	@media(min-width: 992px) and (max-width:1280px) {
+ 	@media(min-width: 768px) and (max-width:991px) {
  		.sushi-md{
  			
  			justify-content: space-between;
- 			max-width: 1279px;
+ 			max-width: 991px;
  			margin: 10px;
  			border: 1px solid black;
  			background-color: gray;
@@ -119,7 +118,7 @@ h1 {
 
 /***small devices***/
 
-@media(max-width: 991px) {
+@media(max-width: 767px) {
  	.chicken-lg{
  		
  		justify-content: space-between;
@@ -134,7 +133,7 @@ h1 {
  		
  		}
  	}
- 	@media(max-width: 991px) {
+ 	@media(max-width: 767px) {
  	.beef-lg{
  		
  		justify-content: space-between;
@@ -149,7 +148,7 @@ h1 {
  		}
  	}
 
- 	@media(max-width: 991px) {
+ 	@media(max-width: 767px) {
  		.sushi-lg{
  			
  			justify-content: space-between;
@@ -170,6 +169,7 @@ h1 {
  		font-size-adjust: 45px;
  		background-color: pink;
  		border: 1px solid black;
+ 		font-family: Garamond;
  		padding: 2px;
  		margin: 0;
  		 		float:right;
@@ -182,6 +182,7 @@ h1 {
  		font-size-adjust: 45px;
  		background-color: red;
  		border: 1px solid black;
+ 		font-family: Garamond;
  		padding: 4px;
  		margin: 0;
  		 		float:right;
@@ -194,6 +195,7 @@ h1 {
  		font-size-adjust: 45px;
  		background-color: yellow;
  		border: 1px solid black;
+ 		font-family: Garamond;
  		padding: 3px;
  		margin: 0;
  		 		float:right;
@@ -205,5 +207,6 @@ h1 {
  	#content {
  		size: 30px; 		
  		text-align: left;
+ 		font-family: Garamond;
  		padding: 15px;
  	}
