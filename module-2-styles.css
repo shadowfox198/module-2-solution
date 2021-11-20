@@ -167,6 +167,7 @@ h1 {
 
  	#title1 {
  		font-size-adjust: 45px;
+ 		font-weight: bold;
  		background-color: pink;
  		border: 1px solid black;
  		font-family: Garamond;
@@ -180,6 +181,7 @@ h1 {
 
 #title2 {
  		font-size-adjust: 45px;
+ 		font-weight: bold;
  		background-color: red;
  		border: 1px solid black;
  		font-family: Garamond;
@@ -193,6 +195,7 @@ h1 {
 
  	#title3 {
  		font-size-adjust: 45px;
+ 		font-weight:bold;
  		background-color: yellow;
  		border: 1px solid black;
  		font-family: Garamond;
